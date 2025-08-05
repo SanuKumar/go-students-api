@@ -17,3 +17,6 @@ add commit -> (initial commit)
 
 ## DB
 sqlite -> file base database --> fast
+
+### https://github.com/ilyakaznacheev/cleanenv
+to install package --> go get -u github.com/ilyakaznacheev/cleanenv
