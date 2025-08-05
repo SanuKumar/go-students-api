@@ -23,3 +23,8 @@ to install package --> go get -u github.com/ilyakaznacheev/cleanenv
 
 ## to run the application
 go run cmd/students-api/main.go -config config/local.yaml
+
+## install request validator
+https://github.com/go-playground/validator
+
+go get github.com/go-playground/validator/v10
