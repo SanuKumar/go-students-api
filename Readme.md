@@ -10,3 +10,10 @@ go run --> (main file path)
 ## add git ignore file
 1. add git ignore vs code extension
 2. cmd+shif+p -> .gitignore -> go
+
+## git initialize
+git init
+add commit -> (initial commit)
+
+## DB
+sqlite -> file base database --> fast
