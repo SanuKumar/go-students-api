@@ -28,3 +28,8 @@ go run cmd/students-api/main.go -config config/local.yaml
 https://github.com/go-playground/validator
 
 go get github.com/go-playground/validator/v10
+
+## install squlite db drive
+https://github.com/mattn/go-sqlite3
+
+go get github.com/mattn/go-sqlite3
