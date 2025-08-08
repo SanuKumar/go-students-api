@@ -33,6 +33,7 @@ func main() {
 	router := http.NewServeMux() // assign type automatically
 
 	router.HandleFunc("POST /api/students", student.New(storage)) // request object pointer
+	router.HandleFunc("GET /api/students/{id}", student.GetById(storage))
 
 	// setup server
 
